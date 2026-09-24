@@ -1,4 +1,4 @@
-// --- LÓGICA DE ZOOM (LIGHTBOX) PARA AXIS GRÁFICO ---
+// --- LÓGICA DE ZOOM (LIGHTBOX) PARA AXIS GRÁFICO Mza ---
 
 // 1. Selección de elementos con mayor compatibilidad
 const lightbox = document.getElementById('lightbox');

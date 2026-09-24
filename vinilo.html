@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Vinilos | Axis Gráfico</title>
+    <title>Vinilos | Axis Gráfico Mza</title>
     <!-- Cargamos Tailwind con plugins para contenedores -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&display=swap" rel="stylesheet"/>
@@ -31,11 +31,11 @@
             border-bottom: 1px solid #1a1a1a;
         }
 
-        .nav-logo {
-            position: absolute;
-            left: 5%;
-            font-weight: 700;
-            color: #fff;
+        .nav-logo { position: absolute; left: 5%; font-weight: 700; }
+
+        @media (max-width: 900px) {
+            .nav-logo { max-width: 110px; font-size: 0.95rem; left: 3%; }
+            .nav-links { gap: 12px; }
         }
 
         .nav-links {
@@ -181,29 +181,29 @@
 <body>
 
 <nav>
-    <div class="nav-logo font-bold text-xl text-white">Axis<span class="afa-blue"> Gráfico</span></div>
-    <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
-    <ul class="nav-links" id="nav-menu">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="corporeos.html">Corpóreos</a></li>
-        <li><a href="imantados.html">Imantados</a></li>
-        <li><a href="inmobiliarias.html">Inmobiliarias</a></li>
-        <li><a href="luminosos.html">Luminosos</a></li>
-        <li><a href="portabanner.html">Porta Banner</a></li>
-        <li><a href="vehicular.html">Vehicular</a></li>
-        <li><a href="vinilo.html" class="active">Vinilo</a></li>
-        <li><a href="#contacto" class="nav-cta">Contacto</a></li>
-    </ul>
-</nav>
+        <div class="nav-logo font-bold text-xl text-white">Axis<span class="afa-blue"> Gráfico</span></div>
+        <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links" id="nav-menu">
+            <li><a href="index.html" class="active">Inicio</a></li>
+            <li><a href="corporeos.html">Corpóreos</a></li>
+            <li><a href="imantados.html">Imantados</a></li>
+            <li><a href="inmobiliarias.html">Inmobiliarias</a></li>
+            <li><a href="luminosos.html">Luminosos</a></li>
+            <li><a href="portabanner.html">Porta Banner</a></li>
+            <li><a href="vehicular.html">Vehicular</a></li>
+            <li><a href="vinilo.html">Vinilo</a></li>
+            <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+        </ul>
+    </nav>
 
 <!-- HERO SECTION -->
 <section class="grid grid-cols-1 lg:grid-cols-2 gap-12 px-[5%] py-16 items-center max-w-7xl mx-auto">
     <div>
-        <span class="line-yellow text-xs font-bold tracking-widest uppercase mb-4 block">✦ Axis Gráfico — Calidad Premium</span>
+        <span class="line-yellow text-xs font-bold tracking-widest uppercase mb-4 block">✦ Axis Gráfico Mza — Calidad Premium</span>
         <h1 class="text-5xl md:text-7xl font-black mb-6 leading-none">
             Ploteos en <br><span class="line-magenta">Vinilo.</span>
         </h1>
@@ -319,7 +319,7 @@
 <footer id="contacto" class="site-footer">
     <div class="footer-grid">
         <div>
-            <h3 class="font-bold text-xl mb-2">Axis Gráfico</h3>
+            <h3 class="font-bold text-xl mb-2">Axis Gráfico Mza</h3>
             <p class="text-gray-400">Especialistas en vinilos, rotulación y señalización comercial para negocios y emprendimientos.</p>
         </div>
         <div>
@@ -349,8 +349,8 @@
         });
     }
 </script>
-<!-- Botón Flotante de WhatsApp para Axis Gráfico -->
-<a href="https://wa.me/5492617466766?text=Hola%20Axis%20Gráfico!%20Necesito%20un%20presupuesto%20personalizado." 
+<!-- Botón Flotante de WhatsApp para Axis Gráfico Mza -->
+<a href="https://wa.me/5492617466766?text=Hola%20Axis%20Gr%C3%A1fico%20Mza!%20Necesito%20un%20presupuesto%20personalizado." 
    target="_blank" 
    rel="noopener noreferrer" 
    class="whatsapp-float"
